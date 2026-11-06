@@ -1,0 +1,26 @@
+In terms of similarity, 30 out of 50 most frequent bigrams appear in both lists. However, the shared items are mostly Senate procedure (unanimous_consent, quorum_call), the major events of the period (cares_act, impeachment_trial, george_floyd), and general civic phrases (american_people).
+The bigrams unique to each party are more revealing: each party frequently names its opponents, Republicans use more floor-management language, and the parties emphasize different policy areas.
+
+Shared bigrams
+Senate procedure: mr._president, madam_president, unanimous_consent, quorum_call
+events of jan-jun 2020: COVID - cares_act, small_businesses, unemployment_insurance, public_health, healthcare_workers; impeachment: impeachment_trial, house_managers, chief_justice; policing: george_floyd, police_officers, law_enforcement
+general civic language: american_people, united_states, federal_government, white_house
+
+2. Can we make generalization about two parties in this period?
+
+Both parties frame their speec around their opponents. The evidence mirrors itself: Dems say leader_mccobbell and republican_colleagues, Reps say house_democrats, speaker_pelosi and democratic_colleagues. Each party's opponent appears among its most-used phrases.
+Democrats: environment, civil right and policing reform, limits on presidential war powers, and aid to state and local governments
+Republicans: public lands and conservation, China and the paycheck protection program for small business.
+
+A difference to note : Republicans procedural bigrams come form being the majority party, which controls floor schedule. It also explains why republicans gave 3038 speeches against democrats's 1497 but produced only about 28% more bigrams: many majority speeces are short motions.
+
+Limits:
+
+The corpora are different sizes, 131697 Democrats vs 168,365 Republican bigrams.
+Unusual time period, six months with a pandemic, an impeachment trial and nationwide protests..
+Frequency doesnt show stance. Both parties say president_trump often, one mostly to criticize and the other mostly to support. 
+Role in chamber, not ideology. As shown in Part 2, some differences reflect majority status.
+
+In conclusion: in this period the data supports generalizations about framing and topic emphasis, but not about what each party believes, and part of the difference reflects majority status and current events not ideology.
+
+
